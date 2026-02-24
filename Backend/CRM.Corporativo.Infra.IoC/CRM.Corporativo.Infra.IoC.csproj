@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CRM.Corporativo.Application\CRM.Corporativo.Application.csproj" />
+    <ProjectReference Include="..\CRM.Corporativo.Domain\CRM.Corporativo.Domain.csproj" />
+    <ProjectReference Include="..\CRM.Corporativo.Infra.Data\CRM.Corporativo.Infra.Data.csproj" />
+    <ProjectReference Include="..\CRM.Corporativo.Infra.Services\CRM.Corporativo.Infra.Services.csproj" />
+  </ItemGroup>
+
+</Project>
